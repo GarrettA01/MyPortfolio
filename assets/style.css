@@ -2,6 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    background-color:#301934 ;
+    color: #fff;
+    padding: 40px 10px;
 }
 
 header h1 {
@@ -22,3 +29,10 @@ header nav ul li {
     padding: 20px;
     margin-right: 20px;
 }
+
+.background-img {
+    height: 150px;
+    width: 100%;
+    background-image: url("./images/earth-gaf0196775_1920 (2).jpg")
+}
+
