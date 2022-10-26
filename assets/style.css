@@ -64,3 +64,11 @@ a:link {
 a:visited {
     color: #301934;
 }
+
+footer {
+    text-align: center;
+    background-color: #301934;
+    color: #fff;
+    padding: 40px;
+    font-size: 150%;
+}
