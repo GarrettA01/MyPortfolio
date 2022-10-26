@@ -5,6 +5,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* Added background and font color, dpadding on the top and bottom of each body of text, and spaced between the header and nav bar */
 header {
     background-color:#301934 ;
     color: #fff;
@@ -13,10 +14,13 @@ header {
     justify-content: space-between
 }
 
+
+/* Removed bullets from nav bar at the top */
 header nav ul {
     list-style: none;
 }
 
+/* Changed nav bar to display contents in a row instead of a column */
 header nav ul li {
     justify-content: flex-end;
     display: inline;
@@ -25,12 +29,14 @@ header nav ul li {
     margin-right: 20px;
 }
 
+/* Details for background image under header */
 .background-img {
     height: 150px;
     width: 100%;
     background-image: url("./images/earth-gaf0196775_1920 (2).jpg")
 }
 
+/* Adds color and display properties to about, work, and contact me sections */
 main {
     color: #301934;
     background-color: #C3C3C3;
@@ -38,24 +44,33 @@ main {
     display: block;
 }
 
+/* Centered text within main section of the body and added bottom borders to about, work, and contact  */
 section {
 text-align: center;
+border-bottom: 5px solid #301934;
 }
 
+/* Space between paragraph in about section and bottom border */
+p {
+    margin-bottom: 10px;
+}
+
+/* Increased size and space around about, work, and contact headers */
 h2 {
     font-size: 200%;
-    text-align: center;
-    padding: 50px;
+    padding: 50px; 
 }
 
+/* Centered, increased space between, and inlined links in the contact me section */
 a {
     text-align: center;
-    padding: 0px 10px;
+    padding: 0px 20px 40px 0px;
     display: inline-block;
 }
 
-    
-a:link {
+ /* anchor element with psuedo classes override normal link functions and keeps them the same color and remove underline */   
+
+ a:link {
     text-decoration: none;
     color: #301934;
     font-size: 20px;
@@ -65,6 +80,8 @@ a:visited {
     color: #301934;
 }
 
+
+/* Added background and font color, aligned text to center of page, added space around text, and increased font size */
 footer {
     text-align: center;
     background-color: #301934;
