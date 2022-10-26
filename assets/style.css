@@ -8,15 +8,9 @@
 header {
     background-color:#301934 ;
     color: #fff;
-    padding: 40px 10px;
-}
-
-header h1 {
-    display: inline-block;
-}
-
-header nav {
-    float: right;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between
 }
 
 header nav ul {
@@ -24,7 +18,8 @@ header nav ul {
 }
 
 header nav ul li {
-    display: inline-block;
+    justify-content: flex-end;
+    display: inline;
     font-size: 20px;
     padding: 20px;
     margin-right: 20px;
@@ -36,3 +31,36 @@ header nav ul li {
     background-image: url("./images/earth-gaf0196775_1920 (2).jpg")
 }
 
+main {
+    color: #301934;
+    background-color: #C3C3C3;
+    display: flex;
+    display: block;
+}
+
+section {
+text-align: center;
+}
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+    padding: 50px;
+}
+
+a {
+    text-align: center;
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+    
+a:link {
+    text-decoration: none;
+    color: #301934;
+    font-size: 20px;
+}
+
+a:visited {
+    color: #301934;
+}
