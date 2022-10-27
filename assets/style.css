@@ -63,16 +63,17 @@ main {
 }
 
 /* Centered text within main section of the body and added bottom borders to about, work, and contact  */
-section {
-text-align: center;
+main section{
 border-bottom: 5px solid #301934;
+text-align: center;
 }
 
+/* Space betweem profile and paragraph */
 img {
     margin-bottom: 20px;
 }
 
-/* Space between paragraph in about section and bottom border */
+/* Space between paragraph in about section and bottom border, as well as aliging paragraph to center of webpage */
 p {
     margin-bottom: 10px;
 }
@@ -80,12 +81,26 @@ p {
 /* Increased size and space around about, work, and contact headers */
 h2 {
     font-size: 200%;
-    padding: 30px; 
+    padding: 30px;
+    text-align: center;
+}
+
+/* Featured project in work section */
+main section div a .featured {
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+/* Other projects in work section*/
+main section div a .other {
+border-radius: 25px;
+display: inline-block;
+
 }
 
 /* Centered, increased space between, and inlined links in the contact me section */
+
 main nav a {
-    text-align: center;
     padding: 0px 20px 40px 0px;
     display: inline-block;
 }
