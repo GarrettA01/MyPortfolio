@@ -14,19 +14,37 @@ header {
     justify-content: space-between
 }
 
-
-/* Removed bullets from nav bar at the top */
-header nav ul {
-    list-style: none;
+/* Changed nav bar to display contents in a row instead of a column */
+/* Changed list to buttons */
+header nav button {
+    justify-content: flex-end;
+    font-size: 13px;
+    width: 80px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: blueviolet;
+    color: #fff;
+    border: 3px solid black;
+    border-radius: 25px;
 }
 
-/* Changed nav bar to display contents in a row instead of a column */
-header nav ul li {
-    justify-content: flex-end;
-    display: inline;
-    font-size: 20px;
-    padding: 20px;
-    margin-right: 20px;
+/* Added button functionality */
+header nav button a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    line-height: 50px;
+}
+
+button:hover {
+    background-color: #DA70D6;
+    border: 3px solid black;
+}
+
+button:active {
+font-size: 11px;
+box-shadow: 0 0 10px black inset;
 }
 
 /* Details for background image under header */
@@ -62,7 +80,7 @@ h2 {
 }
 
 /* Centered, increased space between, and inlined links in the contact me section */
-a {
+main nav a {
     text-align: center;
     padding: 0px 20px 40px 0px;
     display: inline-block;
@@ -70,13 +88,13 @@ a {
 
  /* anchor element with psuedo classes override normal link functions and keeps them the same color and remove underline */   
 
- a:link {
+ main nav a:link {
     text-decoration: none;
     color: #301934;
     font-size: 20px;
 }
 
-a:visited {
+ main nav a:visited {
     color: #301934;
 }
 
