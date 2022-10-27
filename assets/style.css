@@ -126,3 +126,11 @@ footer {
     padding: 40px;
     font-size: 150%;
 }
+
+/* Shifts content based on screen size */
+
+@media screen and (max-width: 768px) {
+body
+{width: 100%;}
+
+}
