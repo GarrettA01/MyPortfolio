@@ -68,6 +68,10 @@ text-align: center;
 border-bottom: 5px solid #301934;
 }
 
+img {
+    margin-bottom: 20px;
+}
+
 /* Space between paragraph in about section and bottom border */
 p {
     margin-bottom: 10px;
@@ -76,7 +80,7 @@ p {
 /* Increased size and space around about, work, and contact headers */
 h2 {
     font-size: 200%;
-    padding: 50px; 
+    padding: 30px; 
 }
 
 /* Centered, increased space between, and inlined links in the contact me section */
